@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fahrenheit to Celsius</title>
+    </head>
+    <body onload="hello()">
+        <p id="demo"></p>
+    </body>
+    <script>
+        function hello() {
+            let c = prompt("Inuput Number", "")
+
+            let fac = 1;
+
+            for(var i = 1; i <= c; i++) {
+                fac *= i; 
+                console.log(fac);
+            }
+            
+            document.getElementById("demo").innerHTML = "Factorial value is: " + fac;
+        }
+    </script>
+</html>
