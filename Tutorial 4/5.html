@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fahrenheit to Celsius</title>
+    </head>
+    <body>
+        <label>Input Fahrenheit</label>
+        <input type="text" id="tex">
+        <input type="button" value="Submit" onclick="submit()">
+        <script>
+            function submit() {
+                f = document.getElementById("tex").value
+                c = (5/9) * (f - 32)
+                alert("Celsiues : " + c);
+            }
+        </script>
+    </body>
+
+</html>
