@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Shoping Cart</title>
+		<link rel="stylesheet" href="./styles/styles.css">
+        <script>
+            const currentDate = new Date();
+            const dateOnly = currentDate.toLocaleDateString();
+            document.write(dateOnly);
+        </script>
+        <script src="./js/myScript.js"></script>
+	</head>
+	<body>
+
+		<img class="logo" src="./images/logo.png" alt="Place_Holder_Image"/>
+
+		<h1>Shopping Chart</h1>
+		<h3>The Online Shopping Store</h3>
+
+
+		<hr color="gray">
+
+		<nav class="navbar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</nav>
+
+        <div class="newslayout">
+            <button class="btn" type="button" id="btn1" onclick="loadData(btn1)">Iphone XS</button>
+            <button class="btn" type="button" id="btn2" onclick="loadData(btn2)">Iphone Max</button>
+            <button class="btn" type="button" id="btn3" onclick="loadData(btn3)">Iphone 8s Plus</button>
+            <button class="btn" type="button" id="btn4" onclick="loadData(btn4)">Iphone SE</button>
+            <button class="btn" type="button" id="avg" onclick="priceForInLoop()">Average Price</button>
+            <button class="btn" type="button" id="avg" onclick="priceHigher()">Price Higher Than 1000</button>
+            <button class="btn" type="button" id="avg" onclick="priceLower()">Price Lower Than 800</button>
+        </div>
+
+        <img src="./images/img1.png" alt="Place_Holder_Image" id="imgView">
+        <p id="para">Mobles Phones, particulary the smart phones that have become our inseptable compasion today, are relatively new. the
+            history of mobile telephoney has a long history that started off with experement of comminication from and to moving vehicle rather then from person to person. In fact, the first mobile communication device was invented in 1947, long before the invention of smartphones.
+
+            This first mobile communication device was called the Mobile Telephone Service (MTS), and it was developed by Bell Labs. The MTS used a radio frequency link to connect a vehicle with a landline telephone network. The device was large and heavy, and could only be installed in a vehicle.
+            
+            In the 1970s, advances in technology led to the development of the first cellular network, which allowed for mobile communication outside of a vehicle. The first commercial cellular network was launched in Japan in 1979.
+            
+            The first mobile phones were large and expensive, and only available to the wealthy. However, advances in technology led to the development of smaller and more affordable mobile phones, which became increasingly popular in the 1990s.
+            
+            The first smartphones were introduced in the early 2000s, and were capable of running basic applications and accessing the internet. However, it wasn't until the introduction of the iPhone in 2007 that smartphones became widely popular and transformed the way we communicate and interact with technology.
+            
+            Today, smartphones have become an integral part of our daily lives, and are used for communication, entertainment, and productivity. The history of mobile telephony is a testament to human ingenuity and our constant drive to innovate and improve technology. 
+        </p>
+
+
+		<hr color="gray">
+
+		<div class="footer">
+			<span>Created by: Lahiru Udayakumara</span><br>
+			<a href="#">Visit Our Course</a>
+		</div>
+	</body>
+    <script src="./js/myScript.js"></script>
+</html>

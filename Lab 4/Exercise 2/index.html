@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 2</title>
+    </head>
+    <body onload="demo()">
+        <p id="para"></p>
+    </body>
+    <script>
+        function demo() {
+            let i = 1;
+            let sum =0;
+
+            while(i <=10) {
+                sum += i;
+                i++;
+            }
+            document.getElementById("para").innerHTML = "Sum of First 10 Naturals Numbers : " + sum;
+        }
+    </script>
+</html>
