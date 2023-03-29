@@ -3,22 +3,22 @@
     <head>
         <title>Exercise 2</title>
     </head>
-    <body onload="demo()">
-        <p id="para"></p>
-    </body>
+    <body>
     <script>
-        function demo() {
-            var text = "";
-            let x = 1;
+        
+        var text = "";
+        let x = 1;
 
-            for (var i = 1; i <= 4; i++){
-                for (var j = 1; j <= i; j++) {
-                    text += x + "&nbsp &nbsp &nbsp" ;
-                    x += 1;
-                }  
-                text += "  <br>";     
-            }
-            document.getElementById("para").innerHTML = text;
+        for (var i = 1; i <= 4; i++){
+            for (var j = 1; j <= i; j++) {
+                text += x + "&nbsp &nbsp &nbsp" ;
+                x += 1;
+            }  
+            text += "  <br>";     
         }
+        document.write(text);
+
     </script>
+    </body>
+
 </html>
